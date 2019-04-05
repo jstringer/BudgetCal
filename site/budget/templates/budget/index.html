@@ -1,0 +1,13 @@
+<ul>
+{% for key, value in account_list.items %}
+	<li>
+		<h3>{{ key }}</h3>
+		<h4>{{ key.balance }}
+		<ul>
+			{% for transaction in value %}
+			<li>{{ transaction.memo }}: {{ transaction.amount }}</li>
+			{% endfor %}
+		</ul>
+	</li>
+{% endfor %}
+</ul>
