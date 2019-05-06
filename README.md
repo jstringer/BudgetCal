@@ -11,14 +11,14 @@ This personal project is being developed as a means for me to learn Django and R
 
 # Interface
 
-![Sample Interface](https://imgur.com/UsLaBfj)
+![Sample Interface](https://github.com/jstringer/BudgetCal/blob/master/BudgetCal/images/sample_design.png)
 
 # Frameworks used
-* Back end
-..* Django with [Django Rest Framework](https://www.django-rest-framework.org/)
+* Back end:
+... Django with [Django Rest Framework](https://www.django-rest-framework.org/)
 
-* Front end
-..* React
+* Front end:
+... React
 
 # Design
 On the backend, there are two database models for this app: `Account` and `Transaction`. Each `Transaction` is associated with a single `Account` and each `Account` has multiple `Transactions`.
